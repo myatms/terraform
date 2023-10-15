@@ -48,4 +48,12 @@ export TF_LOG_PATH="terraform-trace.log"
 echo $TF_LOG
 echo $TF_LOG_PATH
 
+For Window
+**********
+
+$env:TF_LOG="TRACE"
+$env:TF_LOG_PATH="terraform-log.txt"
+
+echo $env:TF_LOG
+echo $env:TF_LOG_PATH
 
