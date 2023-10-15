@@ -39,3 +39,13 @@ Module Download
 terraform get
 
 _____________________________________________________________________
+Terraform Trace Log
+*******************
+
+export TF_LOG=TRACED
+export TF_LOG_PATH="terraform-trace.log"
+
+echo $TF_LOG
+echo $TF_LOG_PATH
+
+
