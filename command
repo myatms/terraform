@@ -21,5 +21,21 @@ terraform state list
 terraform state show (value of list)
 
 _____________________________________________________________________
+
+taint & untaint
+***************
+
+terraform taint (value of terraform state list )
+terraform untaint
+
+_____________________________________________________________________
 terraform state pull
 terraform state push
+
+_____________________________________________________________________
+Module Download
+***************
+
+terraform get
+
+_____________________________________________________________________
