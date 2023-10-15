@@ -42,7 +42,7 @@ _____________________________________________________________________
 Terraform Trace Log
 *******************
 
-export TF_LOG=TRACED
+export TF_LOG=TRACE
 export TF_LOG_PATH="terraform-trace.log"
 
 echo $TF_LOG
