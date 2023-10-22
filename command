@@ -57,3 +57,18 @@ $env:TF_LOG_PATH="terraform-log.txt"
 echo $env:TF_LOG
 echo $env:TF_LOG_PATH
 
+_______________________________________________________________________
+
+Terraform Workspace
+*******************
+
+terraform workspace list
+
+terraform workspace select default
+
+terraform workspace show
+
+terraform workspace new dev
+
+terraform workspace delete dev
+
