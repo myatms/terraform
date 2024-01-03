@@ -1,14 +1,15 @@
-## The lifecycle Meta-Argument
-# create_before_destroy
+# The lifecycle Meta-Argument
 
-resource "azurerm_resource_group" "example" {
+## create_before_destroy
+
+... resource "azurerm_resource_group" "example" {
   # ...
 
   lifecycle {
     create_before_destroy = true
   }
 }
-
+...
 # prevent_destroy
 
 
