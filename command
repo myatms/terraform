@@ -13,6 +13,8 @@ State
 terraform show (show command default show state file)
 terraform refresh (Refresh the state file from actual cloud infra)
 
+
+terraform force-unlock -force LOCK_ID
 _____________________________________________________________________
 
 List
