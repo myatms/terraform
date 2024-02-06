@@ -13,8 +13,14 @@ State
 terraform show (show command default show state file)
 terraform refresh (Refresh the state file from actual cloud infra)
 
-
+To Force Unlock state File
+***************************
 terraform force-unlock -force LOCK_ID
+
+To Remove resource from state (They remain in infrastructure because terraform do not delete this resource )
+*****************************
+
+terraform state rm google_sql_database_instance.prod_db
 _____________________________________________________________________
 
 List
