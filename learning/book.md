@@ -24,11 +24,11 @@
 
 # Lists/tuples are represented by a pair of square brackets containing a comma-separated sequence of values, like ["a", 15, true].
 
-#Implicit Dependency
+# Implicit Dependency
 
 ## security_group_id = ["sg-xxxxxxxxxxxxxxxxxxxxxxxxx"]
 
-#Explicit Dependency
+# Explicit Dependency
 
 ## depend_on = aws_vpc.myvpc
 
