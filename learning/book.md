@@ -35,11 +35,11 @@
 # Terraform environment varible set
 
 ****************************************************
-"
-variable "instructor_name" {
-  type = string
-}
-"
+
+$ variable "instructor_name" {
+$  type = string
+$ }
+
 You can then set the value of the environment variable when you run Terraform by exporting the variable in your shell before running any Terraform commands:
 
 $ export TF_VAR_instructor_name="bryan"
