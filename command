@@ -30,12 +30,12 @@ terraform state show (value of list)
 
 _____________________________________________________________________
 
-taint & untaint
+taint & untaint (The taint command was deprecated in Terraform 0.15.2 and replaced with the terraform apply -replace command.)
 ***************
 
 terraform taint (value of terraform state list )
 terraform untaint
-
+--------terraform apply -replace="name of resource"
 _____________________________________________________________________
 terraform state pull
 terraform state push
