@@ -41,4 +41,12 @@ $ export TF_VAR_instructor_name="bryan"
 $ terraform apply
 ****************************************************
 
+# Terraform function
+
+## min, max, format, join, trim, and length
+
+# Terraform Expression
+
+## string, number, bool, null
+
 
