@@ -80,3 +80,9 @@ terraform workspace new dev
 
 terraform workspace delete dev
 
+______________________________________________________________________
+State Migration
+***************
+
+terraform init -migrate-state
+
